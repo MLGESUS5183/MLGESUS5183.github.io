@@ -3,6 +3,8 @@
     background: url(https://github.com/MLGESUS5183/MLGESUS5183.github.io/raw/master/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
+    --OX: 350;
+    --OY: 350;
 }
 
 .custom.disconnected {
