@@ -13,8 +13,9 @@
     display: none;
 }
 @keyframes go {
-    from {top: var(--OY); left: var(--OX);}
-    to {top: var(--NY); left: var(--NX);}
+    33%     {top: calc(calc(var(--OY) + var(--NY) / 2)); left: calc(calc(var(--OX) + var(--NX) / 2));}
+    66%     {top: calc(calc(var(--OY) + var(--NY) / 4/3)); left: calc(calc(var(--OX) + var(--NX) / 4/3));}     
+    100%    {top: var(--NY); left: var(--NX);}
 }
     
     
