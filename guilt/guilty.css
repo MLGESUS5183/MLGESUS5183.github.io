@@ -26,8 +26,8 @@
     --NX: 350px;
     --NY: 350px;
     background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/ball.png);
-        animation-duration: 50ms;
-    animation-fill-mode: forwards;
+    animation-duration: 50ms;
+    animation-fill-mode: both;
     animation-name: go; 
 }
 
