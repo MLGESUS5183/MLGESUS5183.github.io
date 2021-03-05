@@ -34,6 +34,10 @@
     --NY: 0px;
     animation-duration: 50ms;
     animation-name: go; 
+    top: var(--NY);
+    left: var(--NX);
+    --OX: var(--NX);
+    --OY: var(--NY);
 }
 
 .custom .fstick.down {
