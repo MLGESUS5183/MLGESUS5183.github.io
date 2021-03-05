@@ -14,8 +14,7 @@
 }
 
 @keyframes go {
-    33%     {top: var(--TY); left: var(--TX);}
-    66%     {top: calc(calc(var(--TY) + var(--NY))/2); left: calc(calc(var(--TX) + var(--NX))/2);}     
+    50%     {top: var(--TY); left: var(--TX);}    
     100%    {top: var(--NY); left: var(--NX);}
 }
 
@@ -35,7 +34,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 350px;
     --OY: 0px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -48,7 +47,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 350px;
     --OY: 700px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -62,9 +61,9 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 0px;
     --OY: 350px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
-    animation-fill-mode: forward;
+    animation-fill-mode: both;
     animation-name: go; 
 }
 
@@ -75,7 +74,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 700px;
     --OY: 350px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -87,7 +86,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 600px;
     --OY: 100px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -100,7 +99,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 100px;
     --OY: 100px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -113,7 +112,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 600px;
     --OY: 600px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
@@ -126,7 +125,7 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 100px;
     --OY: 600px;
-    animation-duration: 24ms;
+    animation-duration: 16ms;
     animation-delay: 16ms;
     animation-fill-mode: both;
     animation-name: go; 
