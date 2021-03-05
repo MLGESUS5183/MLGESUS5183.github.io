@@ -1,1 +1,13 @@
+.controller.custom {
+    background: chartreuse;
+    height: 534px;
+    width: 1122px;
+}
 
+.custom.disconnected {
+    background: url(stick-assets/disconnected.svgz) no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
