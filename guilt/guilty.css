@@ -1,7 +1,7 @@
 .controller.custom {
     background: chartreuse;
-    height: 534px;
-    width: 1122px;
+    height: 1000px;
+    width: 1000px;
 }
 
 .custom.disconnected {
@@ -10,4 +10,28 @@
 
 .custom.disconnected div {
     display: none;
+}
+.custom .fstick {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 400px;
+    left: 400px;
+    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/ball.png)
+}
+
+.custom .fstick.up {
+    top: 100px;
+}
+
+.custom .fstick.down {
+    top: 500px;
+}
+
+.custom .fstick.left {
+    left: 100px;
+}
+
+.custom .fstick.right {
+    left: 100px;
 }
