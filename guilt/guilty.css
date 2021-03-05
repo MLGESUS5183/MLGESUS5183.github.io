@@ -34,7 +34,7 @@
     --NX: 350px;
     --NY: 0px;
     --TX: calc(calc(var(--OX) + var(--NX)) / 2);
-    --TY: calc(calc(var(--OY) + var(--NY)) / 2.25);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 1.125);
     --OX: 350px;
     --OY: 0px;
     animation-duration: 16ms;
@@ -60,7 +60,7 @@
 .custom .fstick.left {
     --NX: 0px;
     --NY: 350px;
-    --TX: calc(calc(var(--OX) + var(--NX)) / 2.25);
+    --TX: calc(calc(var(--OX) + var(--NX)) / 1.125);
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 0px;
     --OY: 350px;
@@ -86,7 +86,7 @@
     --NX: 600px;
     --NY: 100px;
     --TX: calc(calc(var(--OX) + var(--NX)) / 2.25);
-    --TY: calc(calc(var(--OY) + var(--NY)) / 2.25);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 1.125);
     --OX: 600px;
     --OY: 100px;
     animation-duration: 16ms;
@@ -98,8 +98,8 @@
 .custom .fstick.up.left {
     --NX: 100px;
     --NY: 100px;
-    --TX: calc(calc(var(--OX) + var(--NX)) / 2.25);
-    --TY: calc(calc(var(--OY) + var(--NY)) / 2.25);
+    --TX: calc(calc(var(--OX) + var(--NX)) / 1.125);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 1.125);
     --OX: 100px;
     --OY: 100px;
     animation-duration: 16ms;
@@ -124,7 +124,7 @@
 .custom .fstick.down.left {
     --NX: 100px;
     --NY: 600px;
-    --TX: calc(calc(var(--OX) + var(--NX)) / 2.25);
+    --TX: calc(calc(var(--OX) + var(--NX)) / 1.125);
     --TY: calc(calc(var(--OY) + var(--NY)) / 2.25);
     --OX: 100px;
     --OY: 600px;
