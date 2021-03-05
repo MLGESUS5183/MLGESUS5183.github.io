@@ -33,32 +33,40 @@
     --NX: 350px;
     --NY: 0px;
     animation-duration: 50ms;
+    animation-fill-mode: forwards;
     animation-name: go; 
-    top: var(--NY);
-    left: var(--NX);
     --OX: var(--NX);
     --OY: var(--NY);
 }
 
 .custom .fstick.down {
     --NX: 350px;
-    --NY: 0px;
+    --NY: 700px;
     animation-duration: 50ms;
+    animation-fill-mode: forwards;
     animation-name: go; 
+    --OX: var(--NX);
+    --OY: var(--NY);
 }
 
 .custom .fstick.left {
-    --NX: 350px;
-    --NY: 0px;
+    --NX: 0px;
+    --NY: 350px;
     animation-duration: 50ms;
+    animation-fill-mode: forwards;
     animation-name: go; 
+    --OX: var(--NX);
+    --OY: var(--NY);
 }
 
 .custom .fstick.right {
-    --NX: 350px;
-    --NY: 0px;
+    --NX: 700px;
+    --NY: 350px;
     animation-duration: 50ms;
+    animation-fill-mode: forwards;
     animation-name: go; 
+    --OX: var(--NX);
+    --OY: var(--NY);
 }
 
 /*END Fight Stick Controller Styling*/
