@@ -14,7 +14,6 @@
 }
 
 @keyframes go {
-    0%      {top: calc(calc(var(--TY) * 2) - var(--NY)); left: calc(calc(var(--TX) * 2) + var(--NX));}
     33%     {top: var(--TY); left: var(--TX);}
     66%     {top: calc(calc(var(--TY) + var(--NY))/2); left: calc(calc(var(--TX) + var(--NX))/2);}     
     100%    {top: var(--NY); left: var(--NX);}
