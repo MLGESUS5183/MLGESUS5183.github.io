@@ -15,7 +15,7 @@
 @keyframes go {
     33%     {top: calc(calc(var(--OY) + var(--NY)) / 2); left: calc(calc(var(--OX) + var(--NX)) / 2);}
     66%     {top: calc(calc(calc(calc(var(--OY) + var(--NY))/ 2) + var(--NY))/2); left: calc(calc(calc(calc(var(--OX) + var(--NX))/ 2) + var(--NX))/2);}     
-    100%    {top: var(--NY); left: var(--NX);}
+    100%    {top: var(--NY); left: var(--NX); --OX: var(--NX); --OY: var(--NY);}
 }
     
     
@@ -36,8 +36,7 @@
     animation-duration: 50ms;
     animation-fill-mode: forwards;
     animation-name: go; 
-    --OX: var(--NX);
-    --OY: var(--NY);
+
 }
 
 .custom .fstick.down {
