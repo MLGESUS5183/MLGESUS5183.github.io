@@ -14,7 +14,6 @@
 }
 
 @keyframes go {
-    0%      {top: calc(calc(var(--TY) * 2) - var(--NY)); left: calc(calc(var(--TX) * 2) + var(--NX));}
     33%     {top: var(--TY); left: var(--TX);}
     66%     {top: calc(calc(var(--TY) + var(--NY))/2); left: calc(calc(var(--TX) + var(--NX))/2);}     
     100%    {top: var(--NY); left: var(--NX);}
@@ -37,7 +36,7 @@
     --OX: 350px;
     --OY: 0px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
@@ -49,7 +48,7 @@
     --OX: 350px;
     --OY: 700px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 
 }
@@ -62,7 +61,7 @@
     --OX: 0px;
     --OY: 350px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
@@ -74,7 +73,7 @@
     --OX: 700px;
     --OY: 350px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 .custom .fstick.up.right {
@@ -85,7 +84,7 @@
     --OX: 600px;
     --OY: 100px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
@@ -97,7 +96,7 @@
     --OX: 100px;
     --OY: 100px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
@@ -109,7 +108,7 @@
     --OX: 600px;
     --OY: 600px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
@@ -121,7 +120,7 @@
     --OX: 100px;
     --OY: 600px;
     animation-duration: 40ms;
-    animation-fill-mode: both;
+    animation-fill-mode: forward;
     animation-name: go; 
 }
 
