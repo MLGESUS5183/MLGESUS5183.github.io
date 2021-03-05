@@ -13,8 +13,8 @@
     display: none;
 }
 @keyframes go {
-    33%     {top: calc(calc(var(--OY,350) + var(--NY)) / 2); left: calc(calc(var(--OX,350) + var(--NX)) / 2);}
-    66%     {top: calc(calc(var(--OY,350) + var(--NY))/ 4/3); left: calc(calc(var(--OX,350) + var(--NX)) / 4/3);}     
+    33%     {top: calc(calc(var(--OY) + var(--NY)) / 2); left: calc(calc(var(--OX) + var(--NX)) / 2);}
+    66%     {top: calc(calc(calc(calc(var(--OY) + var(--NY))/ 2) + var(--NY))/2); left: calc(calc(calc(calc(var(--OX) + var(--NX))/ 2) + var(--NX))/2);}     
     100%    {top: var(--NY); left: var(--NX);}
 }
     
@@ -23,12 +23,11 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    --NX: 350px;
-    --NY: 350px;
+    top: 350px;
+    left: 350px;
+    --OX: 350px;
+    --OY: 350px;
     background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/ball.png);
-    animation-duration: 50ms;
-    animation-fill-mode: both;
-    animation-name: go; 
 }
 
 .custom .fstick.up {
