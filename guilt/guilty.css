@@ -12,29 +12,49 @@
 .custom.disconnected div {
     display: none;
 }
+@keyframes go {
+    from {top: var(--OY); left: var(--OX);}
+    to {top: var(--NY); left: var(--NX);}
+}
+    
+    
 .custom .fstick {
     position: absolute;
     width: 300px;
     height: 300px;
     top: 350px;
     left: 350px;
+    --OX: 350px;
+    --OY: 350px;
     background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/ball.png);
 }
 
 .custom .fstick.up {
-    top: 100px;
+    --NX: 350px;
+    --NY: 0px;
+    animation-duration: 50ms;
+    animation-name: go; 
 }
 
 .custom .fstick.down {
-    top: 600px;
+    --NX: 350px;
+    --NY: 0px;
+    animation-duration: 50ms;
+    animation-name: go; 
 }
 
 .custom .fstick.left {
-    left: 100px;
+    --NX: 350px;
+    --NY: 0px;
+    animation-duration: 50ms;
+    animation-name: go; 
 }
 
 .custom .fstick.right {
-    left: 600px;
+    --NX: 350px;
+    --NY: 0px;
+    animation-duration: 50ms;
+    animation-name: go; 
 }
 
 /*END Fight Stick Controller Styling*/
