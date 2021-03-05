@@ -39,7 +39,10 @@
     animation-fill-mode: both;
     animation-name: go; 
 }
-
+:root{
+    --OY: var(--OY , 350);
+    --OX: var(--OX , 350);
+}
 .custom .fstick.down {
     --NX: 350px;
     --NY: 700px;
