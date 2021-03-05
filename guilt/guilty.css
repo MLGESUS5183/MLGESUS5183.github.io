@@ -14,6 +14,7 @@
 }
 
 @keyframes go {
+    0%      {top: calc(calc(var(--TY) * 2) - var(--NY)); left: calc(calc(var(--TX) * 2) + var(--NX));}
     33%     {top: var(--TY); left: var(--TX);}
     66%     {top: calc(calc(var(--TY) + var(--NY))/2); left: calc(calc(var(--TX) + var(--NX))/2);}     
     100%    {top: var(--NY); left: var(--NX);}
@@ -72,6 +73,53 @@
     --TY: calc(calc(var(--OY) + var(--NY)) / 2);
     --OX: 700px;
     --OY: 350px;
+    animation-duration: 40ms;
+    animation-fill-mode: both;
+    animation-name: go; 
+}
+.custom .fstick.up.right {
+    --NX: 600px;
+    --NY: 100px;
+    --TX: calc(calc(var(--OX) + var(--NX)) / 2);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 2);
+    --OX: 600px;
+    --OY: 100px;
+    animation-duration: 40ms;
+    animation-fill-mode: both;
+    animation-name: go; 
+}
+
+.custom .fstick.up.left {
+    --NX: 100px;
+    --NY: 100px;
+    --TX: calc(calc(var(--OX) + var(--NX)) / 2);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 2);
+    --OX: 100px;
+    --OY: 100px;
+    animation-duration: 40ms;
+    animation-fill-mode: both;
+    animation-name: go; 
+}
+
+.custom .fstick.down.right {
+    --NX: 600px;
+    --NY: 600px;
+    --TX: calc(calc(var(--OX) + var(--NX)) / 2);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 2);
+    --OX: 600px;
+    --OY: 600px;
+    animation-duration: 40ms;
+    animation-fill-mode: both;
+    animation-name: go; 
+}
+
+.custom .fstick.down.left {
+    --NX: 100px;
+    --NY: 600px;
+    --TX: calc(calc(var(--OX) + var(--NX)) / 2);
+    --TY: calc(calc(var(--OY) + var(--NY)) / 2);
+    --OX: 100px;
+    --OY: 600px;
     animation-duration: 40ms;
     animation-fill-mode: both;
     animation-name: go; 
