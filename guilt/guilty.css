@@ -36,7 +36,7 @@
     --OX: 350px;
     --OY: 0px;
     animation-duration: 40ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
     animation-name: go; 
 }
 
@@ -48,7 +48,7 @@
     --OX: 350px;
     --OY: 700px;
     animation-duration: 40ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
     animation-name: go; 
 
 }
@@ -61,7 +61,7 @@
     --OX: 0px;
     --OY: 350px;
     animation-duration: 40ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
     animation-name: go; 
 }
 
@@ -73,7 +73,7 @@
     --OX: 700px;
     --OY: 350px;
     animation-duration: 40ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
     animation-name: go; 
 }
 
