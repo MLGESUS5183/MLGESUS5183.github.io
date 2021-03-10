@@ -3,6 +3,9 @@
     background: url(https://mlgesus5183.github.io/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
+    position: absolute;
+    top: 0px;
+    left:0px;
 }
 
 .custom.disconnected {
