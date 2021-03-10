@@ -20,6 +20,7 @@
 :root{
     --OY: var(--OY , 350);
     --OX: var(--OX , 350);
+    --timey: 51ms;
 }
 .custom .fstick {
     position: absolute;
@@ -37,7 +38,7 @@
     --TY: var(--OY);
     --OX: 350px;
     --OY: 0px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -49,7 +50,7 @@
     --TY: var(--OY);
     --OX: 350px;
     --OY: 700px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 
@@ -62,7 +63,7 @@
     --TY: var(--OY);
     --OX: 0px;
     --OY: 350px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -74,7 +75,7 @@
     --TY: var(--OY);
     --OX: 700px;
     --OY: 350px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -85,7 +86,7 @@
     --TY: var(--OY);
     --OX: 675px;
     --OY: 25px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -97,7 +98,7 @@
     --TY: var(--OY);
     --OX: 25px;
     --OY: 25px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -109,7 +110,7 @@
     --TY: var(--OY);
     --OX: 675px;
     --OY: 675px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
@@ -121,7 +122,7 @@
     --TY: var(--OY);
     --OX: 25px;
     --OY: 675px;
-    animation-duration: 32ms;
+    animation-duration: var(--timey);
     animation-fill-mode: both;
     animation-name: go; 
 }
