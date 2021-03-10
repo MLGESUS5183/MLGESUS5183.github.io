@@ -1,4 +1,4 @@
-/*BEGIN Fight Stick Controller Styling*/
+/BEGIN Fight Stick Controller Styling/
 .controller.custom {
     background: url(https://github.com/MLGESUS5183/MLGESUS5183.github.io/raw/master/guilt/square.png) no-repeat;
     height: 1000px;
@@ -14,117 +14,64 @@
 }
 
 @keyframes go {
-    from {top: var(--TY); left: var(--TX);}
-    to {top: var(--NY); left: var(--NX);}
+    50%     {top: var(--TY); left: var(--TX);}
+    100%    {top: var(--NY); left: var(--NX);}
 }
 :root{
     --OY: var(--OY , 350);
     --OX: var(--OX , 350);
-    --timey: 100ms;
 }
-.custom .fstick {
+.custom .fstick{
     position: absolute;
-    width: 300px;
-    height: 300px;
     top: 350px;
     left: 350px;
-    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/ball.png);
-}
+    width: 80px;
+    height: 80px;
+    background: #fd1601;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    transition: 150ms all linear}
+
 
 .custom .fstick.up {
-    --NX: 350px;
-    --NY: 0px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 350px;
-    --OY: 0px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+    top: 250px;
+    left: 350px;
 }
 
 .custom .fstick.down {
-    --NX: 350px;
-    --NY: 700px;    
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 350px;
-    --OY: 700px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
-
+    top: 450px;
+    left: 350px;
 }
 
 .custom .fstick.left {
-    --NX: 0px;
-    --NY: 350px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 0px;
-    --OY: 350px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+    top: 350px;
+    left: 250px;
 }
 
 .custom .fstick.right {
-    --NX: 700px;
-    --NY: 350px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 700px;
-    --OY: 350px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+     top: 350px;
+    left: 450px;
 }
+
 .custom .fstick.up.right {
-    --NX: 675px;
-    --NY: 25px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 675px;
-    --OY: 25px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+    top: 250px;
+    left: 450px;
 }
 
 .custom .fstick.up.left {
-    --NX: 25px;
-    --NY: 25px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 25px;
-    --OY: 25px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+    top: 250px;
+    left: 250px;
 }
 
 .custom .fstick.down.right {
-    --NX: 675px;
-    --NY: 675px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 675px;
-    --OY: 675px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+     top: 450px;
+    left: 350px;
 }
 
 .custom .fstick.down.left {
-    --NX: 25px;
-    --NY: 675px;
-    --TX: var(--OX);
-    --TY: var(--OY);
-    --OX: 25px;
-    --OY: 675px;
-    animation-duration: var(--timey);
-    animation-fill-mode: both;
-    animation-name: go; 
+ 
 }
 
-/*END Fight Stick Controller Styling*/
+/END Fight Stick Controller Styling/
