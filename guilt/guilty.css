@@ -1,12 +1,12 @@
 /BEGIN Fight Stick Controller Styling/
 .controller.custom {
-    background: url(https://mlgesus5183.github.io/guilt/square.png) repeat;
+    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
 }
 
 .custom.disconnected {
-    background: url(https://mlgesus5183.github.io/guilt/square.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
 }
 
 .custom.disconnected div {
