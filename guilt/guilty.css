@@ -20,7 +20,7 @@
 :root{
     --OY: var(--OY , 350);
     --OX: var(--OX , 350);
-    --timey: 51ms;
+    --timey: 100ms;
 }
 .custom .fstick {
     position: absolute;
