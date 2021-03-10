@@ -1,0 +1,77 @@
+/BEGIN Fight Stick Controller Styling/
+.controller.custom {
+    background: url(https://github.com/MLGESUS5183/MLGESUS5183.github.io/raw/master/guilt/square.png) no-repeat;
+    height: 1000px;
+    width: 1000px;
+}
+
+.custom.disconnected {
+    background: url(https://github.com/MLGESUS5183/MLGESUS5183.github.io/raw/master/guilt/square.png) no-repeat;
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+@keyframes go {
+    50%     {top: var(--TY); left: var(--TX);}
+    100%    {top: var(--NY); left: var(--NX);}
+}
+:root{
+    --OY: var(--OY , 350);
+    --OX: var(--OX , 350);
+}
+.custom .fstick{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    width: 80px;
+    height: 80px;
+    background: #fd1601;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    transition: 150ms all linear}
+
+
+.custom .fstick.up {
+    top: 250px;
+    left: 350px;
+}
+
+.custom .fstick.down {
+    top: 450px;
+    left: 350px;
+}
+
+.custom .fstick.left {
+    top: 350px;
+    left: 250px;
+}
+
+.custom .fstick.right {
+     top: 350px;
+    left: 450px;
+}
+
+.custom .fstick.up.right {
+    top: 250px;
+    left: 450px;
+}
+
+.custom .fstick.up.left {
+    top: 250px;
+    left: 250px;
+}
+
+.custom .fstick.down.right {
+     top: 450px;
+    left: 350px;
+}
+
+.custom .fstick.down.left {
+ 
+}
+
+/END Fight Stick Controller Styling/
