@@ -20,7 +20,9 @@
 
 
 .custom .fstick.up {
+    opacity: 66%;
     background-position: center top;
+    opacity: 100%;
 }
 
 .custom .fstick.down {
