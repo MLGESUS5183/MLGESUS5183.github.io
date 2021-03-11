@@ -5,7 +5,10 @@
     height: 1000px;
     width: 1000px;
 }
-
+@keyframes downleft {
+    to {background-position: 50px 650px;}
+}
+    
 .custom .fstick{
     position: relative;
     top: 0px;
@@ -50,7 +53,7 @@
 }
 
 .custom .fstick.down.left {
-    background-position: 50px 650px;
+    animation: downleft;
 }
 
 
