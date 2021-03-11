@@ -53,7 +53,7 @@
 }
 
 .custom .fstick.down.left {
-    animation: downleft;
+    animation: downleft forwards;
 }
 
 
