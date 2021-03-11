@@ -14,13 +14,13 @@
     height: 1000px;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     background-position: center;
-    transition: 32ms all linear;
+    transition: all 32ms, opacity 6ms;
     transition-timing-function: ease-in;
 }
 
 
 .custom .fstick.up {
-    opacity: 66%;
+    opacity: 33%;
     background-position: center top;
     opacity: 100%;
 }
