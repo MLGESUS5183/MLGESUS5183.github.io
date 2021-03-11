@@ -1,6 +1,6 @@
 /BEGIN Fight Stick Controller Styling/
 .controller.custom {
-    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
+    background: url(https://MLGESUS5183.github.io/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
     position: absolute;
@@ -14,12 +14,14 @@
 
 .custom .fstick{
     position: absolute;
-    top: 350px;
-    left: 350px;
-    width: 350px;
-    height: 350px;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
+    top: 350px;
+    left: 350px;
     border-radius: 150px;
     transition: 51ms all linear;
 }
