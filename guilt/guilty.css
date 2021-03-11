@@ -16,6 +16,7 @@
     width: 250px;
     height: 250px;
     border-radius: 100%;
+	background-color:black;
     background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
     opacity: 0.33;
 }
@@ -24,14 +25,13 @@
     left: 0px;
     top: 0px;
     background-position:center;
-	background-color:gray;
 }
 
 .custom .button {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-	position: absolute;
+    position: absolute;
     opacity: 0.33;
 }
 
