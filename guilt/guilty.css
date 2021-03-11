@@ -15,12 +15,16 @@
 
 .custom .fstick{
     position: absolute;
-    top: 350px;
-    left: 350px;
-    width: 300px;
-    height: 300px;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png);
-    transition: 51ms all linear}
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 1000px;
+    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
+    position: absolute;
+    transform:translate(350px,350px);
+    border-radius:100%;
+    transition: 51ms all linear;
+}
 
 
 .custom .fstick.up {
