@@ -32,7 +32,7 @@
     height: 226px;
     border-radius: 100%;
 	position: absolute;
-    opacity: 0.33;
+    opacity: 0.12;
 }
 .custom .button::before {
   width: 226px;
