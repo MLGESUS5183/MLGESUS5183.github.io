@@ -10,28 +10,29 @@
     height: 226px;
     border-radius: 100%;
 	position: absolute;
-	background-position:center;
 }
 
 .custom .abxy {
     width: 600px;
     height: 600px;
     position: absolute;
-    bottom: 30px;
-    left: 1000px;
+    top: 200px;
+    left: 960px;
 }
 .custom .a {
     position: absolute;
     bottom: 0px;
     left: 0px;
     background: url(https://mlgesus5183.github.io/guilt/K.png) no-repeat;
+    background-position:center;
 }
 
 .custom .b {
     position: absolute;
     bottom: 0px;
-    left: 300px;
+    right: 0px;
     background: url(https://mlgesus5183.github.io/guilt/H.png) no-repeat;
+    background-position:center;
 }
 
 .custom .x {
@@ -39,6 +40,7 @@
     top: 0px;
     left: 0px;
     background: url(https://mlgesus5183.github.io/guilt/P.png) no-repeat;
+    background-position:center;
 }
 
 .custom .y {
@@ -46,6 +48,7 @@
     top: 0px;
     right: 0px;
     background: url(https://mlgesus5183.github.io/guilt/S.png) no-repeat;
+    background-position:center;
 }
 .custom .fstick{
     position: relative;
