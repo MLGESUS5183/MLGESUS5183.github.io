@@ -38,19 +38,19 @@
 }
 
 .custom .fstick.up.right {
-    background-position: top right;
+    background-position: 650px 50px;
 }
 
 .custom .fstick.up.left {
-    background-position: top left;
+    background-position: 50px 50px;
 }
 
 .custom .fstick.down.right {
-    background-position: bottom right;
+    background-position: 650px 650px;
 }
 
 .custom .fstick.down.left {
-    background-position: bottom left;
+    background-position: 50px 650px;
 }
 
 
