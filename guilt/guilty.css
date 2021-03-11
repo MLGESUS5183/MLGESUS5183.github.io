@@ -19,35 +19,49 @@
 
 
 .custom .fstick.up {
-    opacity: 33%;
+    opacity: 25%;
     background-position: center top;
     opacity: 100%;
 }
 
 .custom .fstick.down {
+    opacity: 25%;
     background-position: center bottom;
+    opacity: 100%;
 }
 
 .custom .fstick.left {
+    opacity: 25%;
     background-position: center left;
+    opacity: 100%;
 }
 
 .custom .fstick.right {
+    opacity: 25%;
     background-position: center right;
+    opacity: 100%;
 }
 
 .custom .fstick.up.right {
+    opacity: 25%;
     background-position: 650px 50px;
+    opacity: 100%;
 }
 
 .custom .fstick.up.left {
+    opacity: 25%;
     background-position: 50px 50px;
+    opacity: 100%;
 }
 
 .custom .fstick.down.right {
+    opacity: 25%;
     background-position: 650px 650px;
+    opacity: 100%;
 }
 
 .custom .fstick.down.left {
+    opacity: 25%;
     background-position: 50px 650px;
+    opacity: 100%;
 }
