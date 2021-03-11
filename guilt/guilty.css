@@ -72,6 +72,12 @@
     background: url(https://mlgesus5183.github.io/guilt/S.png) no-repeat;
     background-position:center;
 }
+.custom .button.pressed {
+	opacity:1;
+}
+.custom .bumper.pressed {
+	opacity:1;
+}
 .custom .fstick{
     position: relative;
     top: 0px;
