@@ -63,7 +63,7 @@
     top: 650px;
     left: 50px;
 }
-custom.fstick:before {
+.custom .fstick:before {
     background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
