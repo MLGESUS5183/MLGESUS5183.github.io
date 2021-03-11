@@ -4,17 +4,7 @@
     height: 1000px;
     width: 2000px;
 }
-.custom .fstick{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 1000px;
-    height: 2000px;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
-    background-position: center;
-    transition: background-position 24ms;
-    transition-timing-function: steps(3, jump-start)
-}
+
 .custom .button {
     width: 300px;
     height: 300px;
@@ -57,7 +47,17 @@
     right: 0px;
     background: url(https://mlgesus5183.github.io/guilt/S.png) no-repeat;
 }
-
+.custom .fstick{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 1000px;
+    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
+    background-position: center;
+    transition: background-position 24ms;
+    transition-timing-function: steps(3, jump-start)
+}
 .custom .fstick.up {
     opacity: 10%;
     background-position: center top;
