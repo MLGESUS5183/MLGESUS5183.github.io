@@ -14,7 +14,7 @@
     height: 1000px;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     background-position: center;
-    transition: all 32ms, opacity 6ms;
+    transition: background-position 32ms;
     transition-timing-function: ease-in;
 }
 
