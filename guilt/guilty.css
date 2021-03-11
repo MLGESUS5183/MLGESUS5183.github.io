@@ -20,6 +20,7 @@
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     background-position: center;
     transition: 32ms all linear;
+    transition-timing-function: ease-in-out;
 }
 
 
