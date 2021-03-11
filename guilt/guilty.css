@@ -11,8 +11,8 @@
 
 .custom .fstick{
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -350px;
+    left: -350px;
     width: 1000px;
     height: 1000px;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
@@ -22,22 +22,19 @@
 
 
 .custom .fstick.up {
-    background-position: center left;
+    background-position: center top;
 }
 
 .custom .fstick.down {
-    top: 700px;
-    left: 350px;
+    background-position: center down;
 }
 
 .custom .fstick.left {
-    top: 350px;
-    left: 0px;
+    background-position: center left;
 }
 
 .custom .fstick.right {
-     top: 350px;
-    left: 700px;
+    background-position: center right;
 }
 
 .custom .fstick.up.right {
