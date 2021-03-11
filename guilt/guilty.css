@@ -13,11 +13,12 @@
 }
 
 .custom .bumper {
-    width: 225px;
-    height: 225px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
     opacity: 0.12;
+	background-color:lightgray;
 }
 .custom .bumper.right {
     position: absolute;
@@ -27,19 +28,14 @@
 }
 
 .custom .button {
-    width: 226px;
-    height: 226px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
 	position: absolute;
     opacity: 0.12;
+	background-color:lightgray;
 }
-.custom .a::before {
-  width: 300px;
-    height: 300px;
-    border-radius: 100%;
-	position: absolute;
-    background-color:black;
-}
+
 .custom .abxy {
     width: 600px;
     height: 600px;
