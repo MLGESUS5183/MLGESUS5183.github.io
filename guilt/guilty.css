@@ -17,6 +17,7 @@
     height: 226px;
     border-radius: 100%;
     background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
+    opacity: 0.33;
 }
 .custom .bumper.right {
     position: absolute;
@@ -30,6 +31,7 @@
     height: 226px;
     border-radius: 100%;
 	position: absolute;
+    opacity: 0.33;
 }
 
 .custom .abxy {
