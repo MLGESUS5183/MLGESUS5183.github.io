@@ -16,7 +16,6 @@
     width: 250px;
     height: 250px;
     border-radius: 100%;
-	background-color:black;
     background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
     opacity: 0.33;
 }
@@ -25,6 +24,7 @@
     left: 0px;
     top: 0px;
     background-position:center;
+	background-color:black;
 }
 
 .custom .button {
@@ -48,7 +48,7 @@
     left: 0px;
     background: url(https://mlgesus5183.github.io/guilt/K.png) no-repeat;
     background-position:center;
-	background-color:gray;
+	background-color:black;
 }
 
 .custom .b {
@@ -57,7 +57,7 @@
     right: 0px;
     background: url(https://mlgesus5183.github.io/guilt/H.png) no-repeat;
     background-position:center;
-	background-color:gray;
+	background-color:black;
 }
 
 .custom .x {
@@ -66,7 +66,7 @@
     left: 0px;
     background: url(https://mlgesus5183.github.io/guilt/P.png) no-repeat;
     background-position:center;
-	background-color:gray;
+	background-color:black;
 }
 
 .custom .y {
@@ -75,7 +75,7 @@
     right: 0px;
     background: url(https://mlgesus5183.github.io/guilt/S.png) no-repeat;
     background-position:center;
-	background-color:gray;
+	background-color:black;
 }
 .custom .button.pressed {
 	opacity:1;
