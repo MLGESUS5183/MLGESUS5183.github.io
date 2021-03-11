@@ -3,9 +3,6 @@
     background: url(https://MLGESUS5183.github.io/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
-    position: absolute;
-    top:0px;
-    left:0px
 }
 
 .custom.disconnected {
@@ -18,7 +15,7 @@
     left: 0px;
     width: 1000px;
     height: 1000px;
-    background-position: 350px 350px;
+    background-position: center;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     border-radius: 150px;
     transition: 51ms all linear;
