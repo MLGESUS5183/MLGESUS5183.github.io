@@ -3,6 +3,9 @@
     background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
     height: 1000px;
     width: 1000px;
+    position: absolute;
+    top:0px;
+    left:0px
 }
 
 .custom.disconnected {
@@ -11,8 +14,8 @@
 
 .custom .fstick{
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 350px;
+    left: 350px;
     width: 350px;
     height: 350px;
     position: absolute;
