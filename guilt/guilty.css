@@ -1,14 +1,10 @@
-/BEGIN Fight Stick Controller Styling/
 .controller.custom {
     background: url(square.png) no-repeat;
     background-position: center;
     height: 1000px;
     width: 1000px;
 }
-@keyframes downleft {
-    to {background-position: 50px 650px;}
-}
-    
+
 .custom .fstick{
     position: relative;
     top: 0px;
@@ -53,8 +49,5 @@
 }
 
 .custom .fstick.down.left {
-    animation: downleft forwards;
+    background-position: 50px 650px;
 }
-
-
-/END Fight Stick Controller Styling/
