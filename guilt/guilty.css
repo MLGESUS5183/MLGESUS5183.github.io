@@ -26,7 +26,10 @@
     background-position:center;
 }
 .custom .bumper.right::before {
-	
+	    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-position:center;
 	background-color:gray;
 }
 .custom .button {
