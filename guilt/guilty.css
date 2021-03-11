@@ -6,10 +6,6 @@
 }
 
 .custom.disconnected {
-    background: url(https://raw.githubusercontent.com/MLGESUS5183/MLGESUS5183.github.io/master/guilt/square.png) no-repeat;
-}
-
-.custom.disconnected div {
     display: none;
 }
 
@@ -20,7 +16,6 @@
     width: 1000px;
     height: 1000px;
     position: absolute;
-    transform:translate(-350px,-350px);
     background: url(https://mlgesus5183.github.io/guilt/ball.png);
     border-radius: 150px;
     transition: 51ms all linear;
