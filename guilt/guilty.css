@@ -16,7 +16,7 @@
     width: 1000px;
     height: 1000px;
     position: absolute;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png);
+    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     border-radius: 150px;
     transition: 51ms all linear;
 }
