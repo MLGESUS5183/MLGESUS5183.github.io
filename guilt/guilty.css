@@ -33,9 +33,14 @@
     border-radius: 100%;
 	position: absolute;
     opacity: 0.33;
+}
+.custom .button::before {
+  width: 226px;
+    height: 226px;
+    border-radius: 100%;
+	position: absolute;
     background-color:black;
 }
-
 .custom .abxy {
     width: 600px;
     height: 600px;
