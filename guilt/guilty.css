@@ -6,13 +6,6 @@
     width: 1000px;
 }
 
-.custom.disconnected {
-    background: url(https://MLGESUS5183.github.io/guilt/square.png) no-repeat;
-    background-position: center;
-    height: 1000px;
-    width: 1000px;
-}
-
 .custom .fstick{
     position: relative;
     top: 0px;
