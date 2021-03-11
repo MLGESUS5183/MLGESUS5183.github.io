@@ -19,9 +19,9 @@
     left: 0px;
     width: 1000px;
     height: 1000px;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     position: absolute;
     transform:translate(350px,350px);
+    background: url(https://mlgesus5183.github.io/guilt/ball.png);
     border-radius:100%;
     transition: 51ms all linear;
 }
