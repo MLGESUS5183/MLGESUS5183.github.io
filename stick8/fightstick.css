@@ -3,8 +3,8 @@
 	--butthaha-speed:(200ms);
 }
 .controller.custom {
-    height: 260px;
-    width: 635px;
+    height: 300px;
+    width: 675px;
 }
 @keyframes butthaha {
     0% {background: url("../assets/button1.svg");}
@@ -133,10 +133,20 @@
     right: 3px;
 }
 
+.custom .fstick::before {
+    position: absolute;
+    width: 300;
+    height: 300;
+    border-radius: 260px;
+    top: 0px;
+    left: 0px;
+    background: url(../assets/stick.svg) no-repeat;
+}
+
 .custom .fstick {
     position: absolute;
-    width: 260px;
-    height: 260px;
+    width: 300;
+    height: 300;
     border-radius: 260px;
     top: 0px;
     left: 0px;
