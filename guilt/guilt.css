@@ -33,12 +33,14 @@
     left: 1655px;
     Bottom: 150px;
 }
-.custom .trigger-button.right {
-    position: absolute;
+.custom .trigger-button {
     width: 250px;
     height: 250px;
     border-radius: 100%;
     opacity: 0.6;
+}
+.custom .trigger-button.right {
+    position: absolute;
     left: 0px;
     top: 0px;
     background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
