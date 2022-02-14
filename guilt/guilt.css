@@ -92,6 +92,9 @@
 .custom .bumper.pressed {
 	opacity:1;
 }
+.custom .trigger.pressed {
+	opacity:1;
+}
 .custom .fstick{
     position: relative;
     top: 0px;
