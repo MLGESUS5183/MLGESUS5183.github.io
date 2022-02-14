@@ -113,7 +113,7 @@
     height: 1000px;
     background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
     background-position: center;
-    transition: background-position 28ms;
+    transition: background-position 1s;
     transition-timing-function: steps(3)
 }
 .custom .fstick.up {
