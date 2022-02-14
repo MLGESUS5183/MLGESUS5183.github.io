@@ -121,6 +121,11 @@
     background-position: center top;
     opacity: 100%;
 }
+.custom .fstick.two.up {
+    opacity: 10%;
+    background-position: center top;
+    opacity: 100%;
+}
 
 .custom .fstick.down {
     opacity: 10%;
