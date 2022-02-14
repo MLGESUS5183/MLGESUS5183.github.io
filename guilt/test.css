@@ -100,28 +100,12 @@
     left: 0px;
     width: 1000px;
     height: 1000px;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
+    background: url(https://thumbs.gfycat.com/GlaringFilthyAmurstarfish-size_restricted.gif) no-repeat;
     background-position: center;
     transition: background-position 24ms;
     transition-timing-function: steps(3)
 }
-.custom .fstick.two{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 1000px;
-    height: 1000px;
-    background: url(https://mlgesus5183.github.io/guilt/ball.png) no-repeat;
-    background-position: center;
-    transition: background-position 1s;
-    transition-timing-function: steps(60)
-}
 .custom .fstick.up {
-    opacity: 10%;
-    background-position: center top;
-    opacity: 100%;
-}
-.custom .fstick.two.up {
     opacity: 10%;
     background-position: center top;
     opacity: 100%;
