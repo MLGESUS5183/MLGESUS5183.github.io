@@ -34,17 +34,17 @@
     Bottom: 150px;
 }
 
-.custom .trigger {
+.custom .trigger-button {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
     opacity: 0.6;
 }
-.custom .trigger.right {
+.custom .trigger-button.right {
     position: absolute;
     left: 0px;
     top: 0px;
+    background: url(https://mlgesus5183.github.io/guilt/D.png) no-repeat;
     background-position:center;
 }
 
@@ -90,9 +90,6 @@
 	opacity:1;
 }
 .custom .bumper.pressed {
-	opacity:1;
-}
-.custom .trigger.pressed {
 	opacity:1;
 }
 .custom .fstick{
