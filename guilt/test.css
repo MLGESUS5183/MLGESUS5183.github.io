@@ -102,8 +102,8 @@
     height: 1000px;
     background: url(https://thumbs.gfycat.com/GlaringFilthyAmurstarfish-size_restricted.gif) no-repeat;
     background-position: center;
-    transition: background-position 24ms;
-    transition-timing-function: steps(3)
+    transition: background-position 50ms;
+    transition-timing-function: steps(200)
 }
 .custom .fstick.up {
     opacity: 10%;
